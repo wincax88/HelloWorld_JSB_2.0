@@ -14,10 +14,13 @@ cc.Class({
     onLoad: function () {
         this.label.string = this.text;
 
-        var myObj = new ns.SomeClass();
+        var myObj = new le.agora();
         myObj.foo();
-        ns.SomeClass.static_func();
-        cc.log("ns.SomeClass.static_val: " + ns.SomeClass.static_val);
+
+        cc.log("le.agora.getSdkVersion: " + le.agora.getSdkVersion());
+        cc.log("le.agora.getMediaEnginVersion: " + le.agora.getMediaEnginVersion());
+        
+        cc.log("le.agora.static_val: " + le.agora.static_val);
         cc.log("Old myObj.xxx:" + myObj.xxx);
         myObj.xxx = 1234;
         cc.log("New myObj.xxx:" + myObj.xxx);
