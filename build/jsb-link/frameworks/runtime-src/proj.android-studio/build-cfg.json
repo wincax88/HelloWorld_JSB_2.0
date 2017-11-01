@@ -1,0 +1,8 @@
+{
+    "ndk_module_path" :[
+        "/Users/michael/Documents/preresearch/GroupClass/cocos2d-x-lite",
+        "/Users/michael/Documents/preresearch/GroupClass/cocos2d-x-lite/cocos",
+        "/Users/michael/Documents/preresearch/GroupClass/cocos2d-x-lite/external"
+    ],
+    "copy_resources": []
+}
